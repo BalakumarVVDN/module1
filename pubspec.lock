@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.2"
+  colorpicker_flutter:
+    dependency: "direct dev"
+    description:
+      name: colorpicker_flutter
+      sha256: "86fa423984f345c3a6e14fe1b5b978690db69dc5ce850fff6f3243e52bfc5549"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -199,4 +207,4 @@ packages:
     version: "0.1.4-beta"
 sdks:
   dart: ">=3.1.0 <4.0.0"
-  flutter: ">=1.10.0"
+  flutter: ">=1.17.0"
