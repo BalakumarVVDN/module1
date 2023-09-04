@@ -34,7 +34,7 @@ class MyHomePage extends StatefulWidget {
 class MyHomePageState extends State<MyHomePage> {
   Color color = Colors.white;
   List<dynamic> colorlist = [];
-  Future<void> _picksinglecolor() async {
+  Future<void> picksinglecolor() async {
     color = await ColorpickerState.colorChooseSingle(context);
     setState(() {
 
@@ -76,7 +76,7 @@ class MyHomePageState extends State<MyHomePage> {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: FloatingActionButton(
-              onPressed: _picksinglecolor,
+              onPressed: picksinglecolor,
               tooltip: 'Single',
               child: const Icon(CupertinoIcons.person),
             ),
